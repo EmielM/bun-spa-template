@@ -1,0 +1,11 @@
+{
+  "name": "bun-spa-template",
+  "runArgs": ["--network", "host"],
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/prulloac/devcontainer-features/bun:1": {}
+  },
+  "postCreateCommand": "bun install"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "bun-spa-template",
+	"module": "index.ts",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"scripts": {
+		"dev": "bun run --watch --hot server/index.ts"
+	},
+	"private": true,
+	"type": "module"
+}
